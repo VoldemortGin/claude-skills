@@ -1,0 +1,23 @@
+# Trigger test prompts for pybind11-best-practices skill.
+# Lines starting with + should activate the skill.
+# Lines starting with - should NOT activate the skill.
+#
+# Usage: manually test these prompts with Claude Code to verify
+# the skill triggers correctly.
+
++ Create a new pybind11 project with CMake
++ I want to wrap my C++ library for Python using pybind11
++ How should I structure a pybind11 project?
++ Set up scikit-build-core for my pybind11 bindings
++ Help me write pybind11 bindings for this C++ class
++ How do I expose std::vector to Python with pybind11?
++ What's the best return value policy for this pybind11 function?
++ How to handle the GIL in pybind11?
++ Add NumPy support to my pybind11 module
++ Create a trampoline class for virtual functions in pybind11
+
+- Create a Python Flask web server
+- Help me write a React component
+- How do I use ctypes to call C from Python?
+- Write a Rust PyO3 binding
+- Set up a Django project

@@ -1,0 +1,23 @@
+{
+  "name": "linhan-claude-skills",
+  "owner": {
+    "name": "linhan",
+    "email": ""
+  },
+  "metadata": {
+    "description": "LinHan's custom Claude Code skills collection",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "custom-skills",
+      "description": "Collection of custom skills for daily development workflows",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/example-skill",
+        "./skills/pybind11-best-practices"
+      ]
+    }
+  ]
+}
