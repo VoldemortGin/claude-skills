@@ -70,6 +70,7 @@ Instructions that Claude follows when this skill is active.
 | Skill | Description |
 |-------|-------------|
 | `pybind11-best-practices` | Production-ready guide for pybind11 C++/Python binding projects |
+| `pyo3-best-practices` | Production-ready guide for PyO3 Rust-Python binding projects |
 | `example-skill` | A starter example demonstrating skill structure |
 
 ## Validation

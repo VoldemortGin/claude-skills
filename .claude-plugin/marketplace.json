@@ -16,7 +16,8 @@
       "strict": false,
       "skills": [
         "./skills/example-skill",
-        "./skills/pybind11-best-practices"
+        "./skills/pybind11-best-practices",
+        "./skills/pyo3-best-practices"
       ]
     }
   ]
