@@ -63,6 +63,19 @@ Examples:
 
 The `description` contains keywords and context that Claude uses to decide when a skill is relevant. Only the matching skill's instructions are loaded into context.
 
+### Loading Mechanism
+
+Skills use **lazy loading** — startup only reads each skill's `name` + `description` (a few bytes). The full SKILL.md content loads only when triggered, and supporting files (scripts/, templates/) load on demand. Having many skills installed has minimal impact on startup performance.
+
+### Managing Skill Count
+
+The real concern with many skills is **triggering accuracy**, not performance. When descriptions overlap semantically, Claude may misfire. Best practices:
+
+- Put commonly used skills in `~/.claude/skills/` (global), project-specific ones in `.claude/skills/` (scoped)
+- Write clear, mutually exclusive `description` fields — e.g., explicitly mention "C++" vs "Rust" for binding skills
+- Don't install skills globally that you rarely use
+- A few dozen skills is perfectly fine; just keep descriptions distinct
+
 ### Verify Installation
 
 ```
