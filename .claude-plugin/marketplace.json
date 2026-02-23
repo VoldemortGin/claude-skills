@@ -15,11 +15,9 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/example-skill",
         "./skills/pybind11-best-practices",
         "./skills/pyo3-best-practices",
         "./skills/persistent-planning",
-        "./skills/deai-writing",
         "./skills/skill-extractor"
       ]
     }
