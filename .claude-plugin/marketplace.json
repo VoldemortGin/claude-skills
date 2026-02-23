@@ -103,7 +103,32 @@
         "./skills/testing",
         "./skills/toml-python",
         "./skills/uv",
-        "./skills/validation-protocol"
+        "./skills/validation-protocol",
+        "./skills/composition-patterns",
+        "./skills/react-best-practices",
+        "./skills/react-native-skills",
+        "./skills/web-design-guidelines",
+        "./skills/nextjs-advanced-routing",
+        "./skills/nextjs-anti-patterns",
+        "./skills/nextjs-app-router-fundamentals",
+        "./skills/nextjs-client-cookie-pattern",
+        "./skills/nextjs-dynamic-routes-params",
+        "./skills/nextjs-pathname-id-fetch",
+        "./skills/nextjs-server-client-components",
+        "./skills/nextjs-server-navigation",
+        "./skills/nextjs-use-search-params-suspense",
+        "./skills/vercel-ai-sdk",
+        "./skills/angular-architect",
+        "./skills/fullstack-guardian",
+        "./skills/graphql-architect",
+        "./skills/javascript-pro",
+        "./skills/nestjs-expert",
+        "./skills/nextjs-developer",
+        "./skills/react-expert",
+        "./skills/react-native-expert",
+        "./skills/typescript-pro",
+        "./skills/vue-expert",
+        "./skills/vue-expert-js"
       ]
     }
   ]
