@@ -88,6 +88,9 @@ This lists all installed skills and their descriptions.
 
 | Skill | Description |
 |-------|-------------|
+| `persistent-planning` | File-based persistent planning for complex multi-step tasks (Manus-style) |
+| `deai-writing` | Detect and remove AI writing patterns to make text sound natural |
+| `skill-extractor` | Automatically extract reusable knowledge from sessions into new skills |
 | `pybind11-best-practices` | Production-ready guide for pybind11 C++/Python binding projects |
 | `pyo3-best-practices` | Production-ready guide for PyO3 Rust-Python binding projects |
 | `example-skill` | A starter example demonstrating skill structure |

@@ -1,0 +1,11 @@
+# Trigger test prompts for deai-writing skill.
+
++ This text sounds too AI-generated, can you make it more natural?
++ Remove the AI writing patterns from this document
++ Polish this blog post to sound more human
++ Help me de-AI this article
++ Make this text sound less robotic and more natural
+
+- Write a Python function to sort a list
+- Help me debug this CSS layout
+- Create a new React component

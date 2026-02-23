@@ -1,0 +1,11 @@
+# Trigger test prompts for skill-extractor skill.
+
++ Save this as a skill for future use
++ Extract a skill from what we just learned
++ What did we learn from this session?
++ That debugging trick was useful, let's save it as a reusable skill
++ Turn this workflow into a Claude Code skill
+
+- Create a new pybind11 project
+- Fix the login page bug
+- Write unit tests for this module

@@ -1,0 +1,11 @@
+# Trigger test prompts for persistent-planning skill.
+
++ Help me refactor the entire authentication system
++ I need to research and implement a new caching layer
++ Build a complete REST API from scratch with tests
++ This is a complex multi-step task, let's plan it out
++ I need to restructure this project, there are many steps involved
+
+- Fix the typo in line 42
+- What does this function do?
+- Add a console.log here
