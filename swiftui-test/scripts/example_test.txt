@@ -1,0 +1,33 @@
+# Example SwiftUI test file
+# Lines starting with # are comments; blank lines are ignored
+# Run with: swiftui_test.sh --project App.xcodeproj --scheme App --app-name App --test-file example_test.txt
+
+BUILD
+LAUNCH
+WAIT 3
+
+# Verify minimum window size constraint is enforced
+WINDOW_MIN_SIZE 800 520
+
+# Resize to a normal working size and confirm it's exact
+WINDOW_RESIZE 960 640
+
+# Take a baseline screenshot
+SCREENSHOT initial.png
+
+# Navigate sidebar
+SIDEBAR_SELECT Activity
+WAIT 1
+SCREENSHOT activity.png
+
+SIDEBAR_SELECT Connections
+WAIT 1
+SCREENSHOT connections.png
+
+# Dark mode
+DARK_MODE on
+WAIT 1
+SCREENSHOT dark_mode.png
+DARK_MODE off
+
+KILL

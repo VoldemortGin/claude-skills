@@ -1,0 +1,21 @@
+# Trigger test prompts for pyo3-best-practices skill.
+# Lines starting with + should activate the skill.
+# Lines starting with - should NOT activate the skill.
+
++ Create a new PyO3 Rust extension for Python
++ I want to wrap my Rust library for Python using PyO3
++ How should I structure a PyO3 project?
++ Set up maturin for my Rust Python bindings
++ Help me write a #[pyclass] for this Rust struct
++ How do I convert Rust types to Python with PyO3?
++ What's the best way to handle the GIL in PyO3?
++ Add NumPy support to my PyO3 module with rust-numpy
++ How to use async functions with PyO3?
++ Create a custom Python exception from Rust with PyO3
++ Set up CI for cross-compiling my PyO3 project with maturin-action
+
+- Create a Python Flask web server
+- Help me write a React component
+- How do I use pybind11 to bind C++ to Python?
+- Write a CFFI wrapper for a C library
+- Set up a Django REST API

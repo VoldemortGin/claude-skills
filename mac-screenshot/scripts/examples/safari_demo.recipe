@@ -1,0 +1,23 @@
+# Safari — demonstrate general app automation
+LAUNCH /Applications/Safari.app
+WAIT 2
+RESIZE 1200 800
+
+SCREENSHOT safari_home.png
+
+# Open preferences via menu
+MENU Safari Settings…
+WAIT 1
+SCREENSHOT safari_settings.png
+KEY w command
+WAIT 0.5
+
+# Type a URL
+KEY l command
+WAIT 0.3
+TYPE https://example.com
+KEY return
+WAIT 2
+SCREENSHOT safari_example.png
+
+QUIT

@@ -1,0 +1,53 @@
+# Pervius — capture all sidebar pages
+# Sidebar items (zh locale): 活动, 概览, 连接, 策略, 规则, 抓包, 解密, 订阅
+# Sidebar items (en locale): Activity, Overview, Connections, Policy, Rule, Capture, Decrypt, Subscription
+# Use the labels matching your system locale
+ACTIVATE
+WAIT 1
+RESIZE 1100 720
+
+SIDEBAR 活动
+WAIT 1.5
+SCREENSHOT 01_activity.png
+
+SIDEBAR 概览
+WAIT 1.5
+SCREENSHOT 02_overview.png
+
+SIDEBAR 连接
+WAIT 1.5
+SCREENSHOT 03_connections.png
+
+SIDEBAR 策略
+WAIT 1.5
+SCREENSHOT 04_policy.png
+
+SIDEBAR 规则
+WAIT 1.5
+SCREENSHOT 05_rule.png
+
+SIDEBAR 抓包
+WAIT 1.5
+SCREENSHOT 06_capture.png
+
+SIDEBAR 解密
+WAIT 1.5
+SCREENSHOT 07_decrypt.png
+
+SIDEBAR 订阅
+WAIT 1.5
+SCREENSHOT 08_subscription.png
+
+# Dark mode variants
+DARK_MODE on
+WAIT 1
+
+SIDEBAR 活动
+WAIT 1
+SCREENSHOT 09_activity_dark.png
+
+SIDEBAR 概览
+WAIT 1
+SCREENSHOT 10_overview_dark.png
+
+DARK_MODE off
